@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Walking Demo</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { overflow: hidden; background: #000; width: 100vw; height: 100vh; }
+      canvas {
+          display: inline;
+          width: 100%;
+          height: 100%;
+      }
+    </style>
+</head>
+
+<body>
+<script type="importmap">
+            {
+                "imports": {
+                    "three": "https://cdn.jsdelivr.net/npm/three@0.179.1/build/three.module.js",
+                    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.179.1/examples/jsm/",
+                    "tw": "https://cs.wellesley.edu/~cs307/threejs/libs/tw-fa25.js",
+                    "gltf": "https://cdn.jsdelivr.net/npm/three@0.179.1/examples/jsm/loaders/GLTFLoader.js"
+                }
+            }
+</script>
+<script type="module" src="main.js"></script>
+</body>
+</html>
